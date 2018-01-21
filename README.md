@@ -18,5 +18,5 @@ To deploy, install [now](https://zeit.co/now), then run
 yarn && yarn deploy
 ```
 
-## web
+## demo
 [See it in action here](https://dist-ufsruamsvo.now.sh/)
