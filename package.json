@@ -1,0 +1,19 @@
+{
+  "name": "d4tree-paypal",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.4.1",
+    "rimraf": "^2.6.2"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "clean": "rimraf .cache dist",
+    "build": "parcel build index.html --public-url='./' --no-minify",
+    "deploy": "npm run clean && npm run build && cd dist && now --public"
+  },
+  "dependencies": {
+    "d4tree": "^0.0.1"
+  }
+}

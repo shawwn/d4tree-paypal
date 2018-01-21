@@ -1,0 +1,18 @@
+[{
+    "name": "PayPal data",
+    "parent": "null",
+    "children":
+  [{
+     "name": "Audit",
+     "parent": "PayPal",
+     "children": [
+       {
+         "name": "PricewaterhouseCoopers Sàrl (Luxembourg)",
+         "Purpose": "To test PayPal’s Anti Money Laundering (AML) and Know Your Customer (KYC) controls and to carry out professional auditing services for PayPal Inc. and its subsidiaries.",
+         "Data": "For a sample of individual customer accounts:\nname, PayPal account number (Customer ID), total amount received on the PayPal account, total amount sent from the PayPal account, type of PayPal account, and, as the case may be, any other relevant account information."
+       }
+    ]},
+  ]
+}]
+     
+ 
